@@ -1,5 +1,5 @@
 Edge-Efficient Heart Health Analysis Using ECG-PPG Signal Fusion
-📌 Project Overview
+##📌 Project Overview
 Cardiovascular diseases, particularly paroxysmal arrhythmias like Atrial Fibrillation (AFib), often evade detection in standard clinical environments due to their intermittent nature. While continuous monitoring via wearables is essential, highly accurate diagnostic systems typically rely on computationally heavy deep learning models, making them unsuitable for memory-constrained edge devices (like smartwatches or microcontrollers).
 
 This project proposes a highly optimized, clinically interpretable machine learning pipeline that fuses Electrocardiogram (ECG) and Photoplethysmogram (PPG) signals. By extracting physiological biomarkers—most notably Pulse Transit Time (PTT)—and applying Cost Complexity Pruning (CCP) to a Random Forest classifier, the model size is reduced by 71% (down to ~216 KB). The system achieves 100% patient-level diagnostic accuracy on the unseen test cohort, proving its viability for low-power wearable IoT devices.
